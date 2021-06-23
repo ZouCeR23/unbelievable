@@ -5,6 +5,11 @@
           box-sizing: border-box;
 }
 
+body {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='140' height='160' viewBox='0 0 16 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%233d375e' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M8 0v20L0 10M16 0v10L8 0M16 10v10H8'/%3E%3C/g%3E%3C/svg%3E");
+}
+
 header nav {
   background: -webkit-gradient(linear, left top, right top, from(#a01515), color-stop(#dc0000), color-stop(#dc0000), to(#a01515));
   background: linear-gradient(90deg, #a01515, #dc0000, #dc0000, #a01515);
@@ -38,7 +43,38 @@ header div img {
 }
 
 header div h1 {
+  color: #fff;
   text-align: center;
   text-transform: uppercase;
+}
+
+main section {
+  margin: 30px 10px 0px 10px;
+  height: 600px;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+}
+
+main section h3 {
+  width: 70%;
+  margin: auto;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: .7em;
+}
+
+main section h2 {
+  width: 80%;
+  margin: auto;
+  font-size: 8em;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .14em;
+}
+
+main section p {
+  width: 80%;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
