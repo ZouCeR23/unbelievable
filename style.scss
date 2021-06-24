@@ -29,7 +29,7 @@ header {
 
     div {
         height: 2em;
-        img {
+        & > img {
             background-color: red;
             width: 30%;
             height: 2em;
@@ -51,33 +51,58 @@ header {
 
 main {
 
-    section {
+    .first {
         margin: 30px 10px 0px 10px;
-        height: 600px;
-        background-color: red;
+        height: 700px;
+        background: url('./src/WhatsApp\ Image\ 2021-06-23\ at\ 20.42.15.jpeg') no-repeat;
+        background-size: 100% 700px;
         color: #fff;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: end;
         text-align: center;
-        
-        h3 {
-            width: 70%;
-            margin: auto;
-            font-size: 2em;
-            text-transform: uppercase;
-            letter-spacing: .7em;
-        }
-
-        h2 {
-            width: 80%;
-            margin: auto;
-            font-size: 8em;
-            text-transform: uppercase;
-            text-align: center;
-            letter-spacing: .14em;
-        }
 
         p {
             width: 80%;
-            margin: auto;
+            font-size: 2.4em;
+            margin-bottom: 120px;
+            margin-left: auto;
+            margin-right: auto;
         }
+    }
+
+    .second {
+        margin: 30px 10px 0px 10px;
+        text-align: center;
+
+        & > img {
+            width: 600px;
+            height: 100px;
+            background-color: red;
+            
+        }
+
+        & > p {
+            color: red;
+            font-size: 3.2em;
+            letter-spacing: .05em;
+            word-spacing: .2em;
+        }
+
+        video {
+            background-color: red;
+            width: 100%;
+        }
+
+        & > section {
+            height: 100px;
+            width: 100%;
+            & > a {
+                background-color: red;
+                width: 10%
+                height: auto;;
+            }
+        }
+        
     }
 }
